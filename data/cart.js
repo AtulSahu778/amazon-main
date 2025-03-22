@@ -1,19 +1,19 @@
 export let cart = JSON.parse(localStorage.getItem('cart'));
 
-// if(!cart){
-//     cart = [
-//         {
-//          productId: '9f8e7d6c-5b4a-3g2h-1i0j-k9l8m7n6o5p4',
-//          quantity: 2,
-//          deliveryOptionId: '1'
-//         }, 
-//         {
-//          productId: '1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6',
-//          quantity: 1,
-//          deliveryOptionId: '2'
-//         }];
+if(!cart){
+    cart = [
+        {
+         productId: '9f8e7d6c-5b4a-3g2h-1i0j-k9l8m7n6o5p4',
+         quantity: 2,
+         deliveryOptionId: '1'
+        }, 
+        {
+         productId: '1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6',
+         quantity: 1,
+         deliveryOptionId: '2'
+        }];
         
-// }
+}
 
 
 
