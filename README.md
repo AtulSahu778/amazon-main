@@ -12,6 +12,7 @@ A fully responsive Amazon Clone built using HTML, CSS, and JavaScript. This proj
 
 ## Folder Structure
 
+
 ```
 📦 Amazon Clone
 ├── 📂 backend (optional for future enhancements)
